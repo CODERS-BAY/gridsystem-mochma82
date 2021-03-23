@@ -1,0 +1,156 @@
+
+*{box-sizing: border-box;}
+
+:root{
+    --text-color:  rgb(90, 6, 6);
+    --text-color2: white;
+
+}
+
+body, html{
+    padding:0;
+    margin:0;
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    display:flex;
+    background-color: var(--text-color);
+    padding: 20px; 
+    justify-content: space-between;
+
+}   
+
+ul{
+    display:flex;
+    padding:0;
+ 
+}
+
+ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: var(--text-color2);
+    font-size: 20px;
+}
+
+ul li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0 20px;
+    
+   
+    
+}
+
+.logo{
+    display: flex;
+    color:var(--text-color2);
+    
+}
+
+.menue{
+    display: flex;
+    padding: 0 40px; 
+    justify-content: space-around;  
+    align-content: flex-end;
+    
+
+    
+}
+
+#headerimage{
+    background-image: url(../Bilder/frontpage.jpg);
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    
+}
+
+h1 {
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    text-align: center;
+
+}
+h2{
+    color: var(--text-color);
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.hintergrund{
+    background-image: url(../Bilder/hintergrund.jpg);
+    height: 40vh;
+    display: flex;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.hintergrund > h3{
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+.button{
+    background-color: var(--text-color);
+    color: var(--text-color2);
+
+    padding:10px;
+    text-decoration: none;
+}
+
+h3{
+    color: var(--text-color2);
+    font-family: 'Playfair Display', serif;
+      
+}
+
+h4{
+    color: var(--text-color);
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+
+}
+.to_go{
+    text-align: left;
+    padding: 40px 0;
+
+}
+
+footer{
+    background-color: var(--text-color);
+    padding:10px;
+
+}
+
+ul > li{
+    color:var(--text-color2);
+}
+
+.button1{
+    background-color: var(--text-color);
+    color: var(--text-color2);
+    padding:10px;
+    text-decoration: none;
+    text-align: center;
+    margin:0 auto 20px;
+    display:table;
+}
+
+
+
